@@ -16,12 +16,14 @@ The goal was to analyze the genomes of 10 PCFG whales and 10 whales from the lar
 9. Ero0185     
 10. Ero0189     
 
-**Larger Population***
-1. Ero0072
-2. Ero0082
-3. Ero0084
-4. Ero0089
-5. Ero0105
-6. Ero0108
-7. Ero0113
-8. Ero0115
+**Larger Population**     
+1. Ero0072     
+2. Ero0082     
+3. Ero0084     
+4. Ero0089     
+5. Ero0105     
+6. Ero0108     
+7. Ero0113     
+8. Ero0115     
+
+These samples were prepared for sequencing (library preparation) at the McGill Genome using the Lucigen NxSeq AmpFREE method. They were then sequenced on 4 lanes of a Illumina NovaSeqX Plus 25B. All samples were spread across all 4 lanes.
