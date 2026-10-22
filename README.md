@@ -1,3 +1,5 @@
+Hello!!!
+
 This repository contains all of the commands used by myself, and honours students Emily Letourneau (SMU) and Maeve Lee (DAL) to analyze grey whale genomes for their honours theses in the 2026-2027 academic year.
 
 The main goal is to analyze the autosomal and mitochondrial DNA separately to assess population structure between samples from the Pacific Coast Feeding Group (PCFG) and those from the larger population.
