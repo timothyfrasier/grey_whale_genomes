@@ -1,4 +1,4 @@
-This repository contains all of the commands used by myself, and honours students Emily Letourneau (SMU) and Maeve Lee (DAL) to analyze grey whale genomes for their honours theses in the 2026-2026 academic year.
+This repository contains all of the commands used by myself, and honours students Emily Letourneau (SMU) and Maeve Lee (DAL) to analyze grey whale genomes for their honours theses in the 2026-2027 academic year.
 
 The main goal is to analyze the autosomal and mitochondrial DNA separately to assess population structure between samples from the Pacific Coast Feeding Group (PCFG) and those from the larger population.
 
@@ -26,4 +26,9 @@ The goal was to analyze the genomes of 10 PCFG whales and 10 whales from the lar
 7. Ero0113     
 8. Ero0115     
 
-These samples were prepared for sequencing (library preparation) at the McGill Genome using the Lucigen NxSeq AmpFREE method. They were then sequenced on 4 lanes of a Illumina NovaSeqX Plus 25B. All samples were spread across all 4 lanes.
+These samples were prepared for sequencing (library preparation) at the McGill Genome Centre using the Lucigen NxSeq AmpFREE method. They were then sequenced on 4 lanes of a Illumina NovaSeqX Plus 25B. All samples were spread across all 4 lanes.
+
+Our workflow is illustrated below, where the circled numbers correspond to the file number associated with the code for that step.
+
+![Workflow diagram](figures/workflow.png)
+
