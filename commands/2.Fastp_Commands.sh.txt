@@ -34,7 +34,7 @@ do #Fastp filters
 fastp --in1 ${read}_R1_001.fastq.gz --in2 ${read}_R2_001.fastq.gz -q 20 -u 15 -e 30 -l 50 --detect_adapter_for_pe --cut_front --cut_front_window_size 5 --cut_front_mean_quality 30 --cut_tail --cut_tail_window_size 5 --cut_tail_mean_quality 30 --correction --merge --merged_out ../../../../filtered/lane1/${read}_merged.fastq.gz --thread 5
 
 done 
-cd..;
+cd ..;
 
 done
 
