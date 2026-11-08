@@ -1,4 +1,40 @@
-#Script for Fastp filtering of Grey Whale Genomes
+#!/bin/bash
+
+#################################################################
+# Commands for filtering data based on quality, and for merging #
+# paired reads. Arguments for Fastp below.                      #
+#                                                               #
+# --in1 : Input file for read 1                                 #
+# --in2 : Input file for read 2                                 #
+# -q 20 : Minimum quality value of a base, anything below is    #
+# discarded                                                     #
+# -u 15 : Percentage of bases allowed to be 'unqualified'       #
+# before read is discarded                                      #
+# -e 30 : Minimum average read quality before read is discarded #
+# -l 50 : Minimum requiered read length                         #
+# --detect_adapter_for_pe : Detects adapters for paired end     #
+# sequences                                                     #
+# --cut_front : Sliding window from 5' end, removes bases if    #
+# mean quality is below --cut_front_mean_quality                #
+# --cut_front_window_size 5 : Sets window size for --cut_front  #
+# --cut_front_mean_quality 30 : Set mean quality threshold      #
+# All --cut_tail arguments preform the same function as thier   #
+# --cut_front counterparts, but from the 3' direction           #
+# --correction : Enables correction of mismatched bases in      #
+# pair-read sequences                                           #
+# --merge : Stitches paired-end input                           #
+# --merged_out : The output file for merged reads               #
+# --thread 5 : How many threads to use                          #
+#################################################################
+# Created a directory called 'filtered' where reads were placed #
+# to. After running commands for one lane, moved the merged     #
+# files into a lane-spesific directory.                         #
+#################################################################
+# This script was run 4 times, once from within each            #
+# Unaligned.X directory. Change lane number in script           #
+# according to lane directory you are in                        #
+#################################################################
+
 
 cd Project_423 #go to project directory
 
@@ -39,7 +75,7 @@ cd ..;
 
 done
 
-#Change lane number as needed
+
 
 
 
