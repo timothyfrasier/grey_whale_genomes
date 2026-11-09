@@ -72,7 +72,8 @@ sed -i '/_R2_/d' names;     # Remove the Read 2 file
 sed -i 's/_R1_001.fastq.gz//g' names # Remove the trailing end of file name
 for read in $(<names);      # For each file name remaining
 do
-fastp --in1 ${read}_R1_001.fastq.gz --in2 ${read}_R2_001.fastq.gz -q 20 -u 15 -e 30 -l 50 --detect_adapter_for_pe --correction --thread 10 --merged_out ../../../../filtered/${read}_merged.fastq.gz;  done
+echo ${read}
+#fastp --in1 ${read}_R1_001.fastq.gz --in2 ${read}_R2_001.fastq.gz -q 20 -u 15 -e 30 -l 50 --detect_adapter_for_pe --correction --thread 10 --merged_out ../../../../filtered/${read}_merged.fastq.gz;  done
 cd ..;                      # Go back up one directory
 done
 
