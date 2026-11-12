@@ -33,5 +33,5 @@ These samples were prepared for sequencing (library preparation) at the McGill G
 
 Our workflow is illustrated below, where the circled numbers correspond to the file number associated with the code for that step.
 
-![Workflow diagram](figures/workflow.png)
+![Workflow diagram](figures/workflow_4.png)
 
